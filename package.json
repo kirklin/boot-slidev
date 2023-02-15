@@ -8,8 +8,11 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@iconify/json": "^2.2.21",
+    "@kirklin/logger": "^0.0.1",
+    "@kirklin/reset-css": "^0.0.3",
     "@kirklin/eslint-config": "^0.2.6",
+    "unocss-preset-chinese": "^0.0.1",
+    "@iconify/json": "^2.2.21",
     "@slidev/cli": "^0.40.3",
     "@slidev/theme-default": "^0.21.2",
     "eslint": "^8.34.0",
