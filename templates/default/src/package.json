@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build --base /templates/default/ --out ../../dist/templates/default",
+    "build": "slidev build --base /templates/default/ --out ../../../dist/templates/default",
     "export": "slidev export --per-slide --output ../templates-default.pdf",
     "play": "slidev --remote --tunnel"
   }
