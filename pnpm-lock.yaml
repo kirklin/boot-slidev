@@ -649,8 +649,6 @@ packages:
       '@antfu/install-pkg': 0.1.1
       '@antfu/utils': 0.7.2
       '@iconify/types': 2.0.0
-      '@kirklin/install-pkg': 0.1.1
-      '@kirklin/utils': 0.7.2
       debug: 4.3.4
       kolorist: 1.7.0
       local-pkg: 0.4.3
@@ -789,27 +787,12 @@ packages:
       - typescript
     dev: true
 
-  /@kirklin/install-pkg/0.1.1:
-    resolution: {integrity: sha512-LyB/8+bSfa0DFGC06zpCEfs89/XoWZwws5ygEa5D+Xsm3OfI+aXQ86VgVG7Acyef+rSZ5HE7J8rrxzrQeM3PjQ==}
-    dependencies:
-      execa: 5.1.1
-      find-up: 5.0.0
-    dev: true
-
   /@kirklin/logger/0.0.1:
     resolution: {integrity: sha512-RSnBSl0U/xQwzRDu5nxW7fjZs052gjJrd6Ov28WXM3Wku0R6veaIOz0XAQg7TawZiTDgJsz+QysPQd/kJQ+RMQ==}
     dev: true
 
   /@kirklin/reset-css/0.0.3:
     resolution: {integrity: sha512-EUfxCc0U8iIn4hwhtsOha6uYKul839pyol4Yt5FJtLT8BH/F9MLMkik6KkKHhvInk8nVu4flSsFBGn/OZuu74g==}
-    dev: true
-
-  /@kirklin/utils/0.5.2:
-    resolution: {integrity: sha512-CQkeV+oJxUazwjlHD0/3ZD08QWKuGQkhnrKo3e6ly5pd48VUpXbb77q0xMU4+vc2CkJnDS02Eq/M9ugyX20XZA==}
-    dev: true
-
-  /@kirklin/utils/0.7.2:
-    resolution: {integrity: sha512-vy9fM3pIxZmX07dL+VX1aZe7ynZ+YyB0jY+jE6r3hOK6GNY2t6W8rzpFC4tgpbXUYABkFQwgJq2XYXlxbXAI0g==}
     dev: true
 
   /@lillallol/outline-pdf-data-structure/1.0.3:
@@ -957,7 +940,6 @@ packages:
       '@hedgedoc/markdown-it-plugins': 2.0.0_markdown-it@13.0.1
       '@iconify-json/carbon': 1.1.15
       '@iconify-json/ph': 1.1.4
-      '@kirklin/utils': 0.7.2
       '@lillallol/outline-pdf': 4.0.0
       '@slidev/client': 0.40.3_vite@4.1.1
       '@slidev/parser': 0.40.3
@@ -1033,7 +1015,6 @@ packages:
     engines: {node: '>=14.0.0'}
     dependencies:
       '@antfu/utils': 0.7.2
-      '@kirklin/utils': 0.7.2
       '@slidev/parser': 0.40.3
       '@slidev/types': 0.40.3
       '@unocss/reset': 0.49.4
@@ -1722,7 +1703,6 @@ packages:
     resolution: {integrity: sha512-Phqk5OW1w+Mv+ry6t7BzAeDq3aMhbI94gR49j9vQCufFfDGCHndhhjtMK0sBv+NPJUsIAIh6qayb1iwBCXUGrw==}
     dependencies:
       '@antfu/utils': 0.7.2
-      '@kirklin/utils': 0.7.2
       '@windicss/config': 1.8.10
       debug: 4.3.4
       fast-glob: 3.2.12
@@ -5235,7 +5215,6 @@ packages:
     resolution: {integrity: sha512-1589b7oGa8ILBYpta7TndM5mLHLzHUqBfhszeZxuUBrjO/RoQ52VGVWsS3w0C0GLNxO9RPmqkf6BmIvBApaRdA==}
     dependencies:
       '@antfu/utils': 0.5.2
-      '@kirklin/utils': 0.5.2
       defu: 6.1.2
       jiti: 1.17.0
     dev: true
@@ -5348,8 +5327,6 @@ packages:
       '@antfu/install-pkg': 0.1.1
       '@antfu/utils': 0.7.2
       '@iconify/utils': 2.1.2
-      '@kirklin/install-pkg': 0.1.1
-      '@kirklin/utils': 0.7.2
       debug: 4.3.4
       kolorist: 1.7.0
       local-pkg: 0.4.3
@@ -5369,7 +5346,6 @@ packages:
         optional: true
     dependencies:
       '@antfu/utils': 0.7.2
-      '@kirklin/utils': 0.7.2
       '@nuxt/kit': 3.2.0
       '@rollup/pluginutils': 5.0.2
       chokidar: 3.5.3
@@ -5451,7 +5427,6 @@ packages:
       vite: ^3.1.0 || ^4.0.0
     dependencies:
       '@antfu/utils': 0.7.2
-      '@kirklin/utils': 0.7.2
       '@rollup/pluginutils': 5.0.2
       debug: 4.3.4
       fs-extra: 11.1.0
@@ -5484,7 +5459,6 @@ packages:
       vite: ^2.0.0 || ^3.0.0-0 || ^4.0.0
     dependencies:
       '@antfu/utils': 0.7.2
-      '@kirklin/utils': 0.7.2
       '@mdit-vue/plugin-component': 0.11.2
       '@mdit-vue/plugin-frontmatter': 0.11.1
       '@mdit-vue/types': 0.11.0
