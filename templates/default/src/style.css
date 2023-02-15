@@ -1,0 +1,28 @@
+/* .slidev-code {
+  font-size: 1em !important;
+  line-height: 1.4em !important;
+} */
+
+h6 {
+  text-transform: initial !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+}
+
+.dark #slide-content {
+  background-color: black !important;
+}
+
+/* Transitions */
+.slidev-vclick-target {
+  transition: opacity 400ms ease;
+}
+
+.slidev-vclick-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+iframe {
+  background: black;
+}
