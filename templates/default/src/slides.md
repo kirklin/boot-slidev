@@ -64,7 +64,7 @@ style: 'padding-left: 8rem;'
 
 # Kirk Lin
 
-<div class="leading-10 opacity-80">
+<div class="leading-10 opacity-80 font-song">
 凡夫俗子不知道贤者之名，<br/>岂料我乃一位全栈工程师和自由职业软件工程师，自幼痴迷软件开发，<br/>崇尚创新之思维，尤嗜优美之界面。
 每逢我所构建的项目，必然细心呵护用户体验，追求架构之卓越，求取代码之至美。<br/>
 </div>
