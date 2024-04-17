@@ -6,9 +6,4 @@ export default defineConfig({
   plugins: [
     Inspect(),
   ],
-  slidev: {
-    components: {
-      dts: false,
-    },
-  },
 });

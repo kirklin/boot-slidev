@@ -1,11 +1,11 @@
-[build.environment]
-  NPM_FLAGS = "--prefix=/dev/null"
-  NODE_VERSION = "16"
-  PLAYWRIGHT_BROWSERS_PATH = "0"
-
 [build]
-  publish = "dist"
-  command = "npx pnpm i --store=node_modules/.pnpm-store && npx pnpm run build"
+publish = "dist"
+command = "npx pnpm i --store=node_modules/.pnpm-store && npx pnpm run build"
+
+[build.environment]
+NPM_FLAGS = "--prefix=/dev/null"
+NODE_VERSION = "16"
+PLAYWRIGHT_BROWSERS_PATH = "0"
 
 [[redirects]]
 from = "/templates/default/*"

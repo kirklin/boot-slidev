@@ -1,9 +1,12 @@
 ---
-layout: cover
+layout: center
 highlighter: shiki
 css: unocss
 colorSchema: dark
 transition: fade-out
+mdc: true
+growSeed: 4
+title: DEMO
 ---
 
 <h1 flex="~ col">
@@ -20,11 +23,15 @@ Kirk Lin
   <div text-sm opacity-50>time</div>
 </div>
 
+<!--
+Hello everyone, it's my great honor to be here, and thanks for having me! First, let me introduce a bit about myself.
+-->
+
 ---
 layout: intro
-growX: 10
-growY: 90
-style: 'padding-left: 8rem;'
+growSeed: 15
+growOpacity: 0.3
+class: pl-25
 ---
 
 # Kirk Lin
@@ -51,15 +58,11 @@ I am driven by the pursuit of innovation and the desire to bring ideas to life w
 
 </div>
 
-<!--
-
--->
-
 ---
 layout: intro
-growX: 10
-growY: 90
-style: 'padding-left: 8rem;'
+growSeed: 15
+growOpacity: 0.3
+class: pl-25
 ---
 
 # Kirk Lin
@@ -86,10 +89,6 @@ style: 'padding-left: 8rem;'
 
 </div>
 
-<!--
-
--->
-
 ---
 layout: center
 growX: 50
@@ -98,10 +97,6 @@ growSize: 1.5
 ---
 
 # Title1
-
-<!--
-
--->
 
 ---
 growX: 50
@@ -134,9 +129,6 @@ growY: 0
 </v-clicks>
 </div>
 
-<!--
--->
-
 ---
 
 # Title3
@@ -152,9 +144,6 @@ growY: 0
 - item6
 
 </v-clicks>
-
-<!--
--->
 
 ---
 growX: 80
@@ -175,9 +164,6 @@ growY: 80
 
 </v-clicks>
 
-<!--
--->
-
 ---
 growX: 0
 growY: 90
@@ -185,12 +171,11 @@ growY: 90
 
 # Vite Boot Demo
 
-<iframe v-click src="https://vite-boot.netlify.app/#/home" 
-  onload="this.style.visibility = 'visible';" 
-  scale-50 origin-top-right absolute right-0 top-0 bottom-0 w="130%" h="200%" 
+<iframe v-click src="https://boot-vue.vercel.app/#/home"
+  onload="this.style.visibility = 'visible';"
+  scale-50 origin-top-right absolute right-0 top-0 bottom-0 w="130%" h="200%"
   style="mix-blend-mode: lighten;filter:contrast(1.15);visibility:hidden;"
 />
-
 
 <v-clicks>
 
@@ -200,10 +185,6 @@ growY: 90
 
 </v-clicks>
 
-<!--
-
--->
-
 ---
 growX: 0
 growY: -30
@@ -211,6 +192,7 @@ growFollow: false
 ---
 
 # vite-plugin-inspect
+
 Inspect your Vite intermediate states
 
 <iframe v-click src="/__inspect/" border-t border-gray:15 scale-75 origin-bottom-left absolute left-0 bottom-0 w="134%" h="102%" style="mix-blend-mode: lighten;filter: contrast(1.15);" />
@@ -220,8 +202,6 @@ To solve the same issue I had in Vite. I made the package called `vite-plugin-in
 
 Since `vite-plugin-inspect` is for Vite, it can actually work with any framework or tools built on top of Vite, including Nuxt. However, because Vite is framework agnostic, the inspect feature is relatively low-level. It can be helpful in some cases, but it can also be quite limited.
 -->
-
-
 
 ---
 layout: center
@@ -239,16 +219,10 @@ Let's go demo time!
 
 ---
 layout: iframe
-url: https://vite-boot.netlify.app/#/StoreTest
+url: https://boot-vue.vercel.app/#/StoreTest
 scale: 0.5
 growFollow: false
 ---
-
-
-
-<!--
-
--->
 
 ---
 layout: center
@@ -261,15 +235,10 @@ growY: 0
 
 ---
 layout: iframe
-url: https://vite-boot.netlify.app/#/home
+url: https://boot-vue.vercel.app/#/home
 scale: 0.5
 growFollow: false
 ---
-
-
-
-<!--
--->
 
 ---
 layout: center
@@ -285,7 +254,6 @@ growY: 90
 <!--
 And so, the slidev of kirklin/boot-slidev is open-sourced, right now! You can give it a star at github.com/kirklin/boot-slidev.
 -->
-
 
 ---
 layout: center
