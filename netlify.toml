@@ -8,6 +8,6 @@ NODE_VERSION = "16"
 PLAYWRIGHT_BROWSERS_PATH = "0"
 
 [[redirects]]
-from = "/templates/default/*"
-to = "/templates/default/index.html"
+from = "/talks/default/*"
+to = "/talks/default/index.html"
 status = 200
